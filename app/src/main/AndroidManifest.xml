@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anime">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Anime">
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.Anime.NoActionBar"></activity>
+        <activity android:name=".SplashAnimacion" />
+        <activity android:name=".PaginawebActivity" />
+        <activity android:name=".OneActivity" />
+        <activity android:name=".NarutoActivity" />
+        <activity android:name=".SlamActivity" />
+        <activity android:name=".DemonActivity" />
+        <activity android:name=".DragonActivity" />
+        <activity android:name=".Onevideo" />
+        <activity android:name=".Slamvideo" />
+        <activity android:name=".Demonvideo" />
+        <activity android:name=".Narutovideo" />
+        <activity android:name=".Dragonvideo" />
+        <activity android:name=".Splash2" />
+        <activity android:name=".Splash1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
